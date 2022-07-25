@@ -26,7 +26,7 @@ function change(e){
     document.getElementById("area").style.textDecoration="underline";
    }
    if(!e.checked){
-    document.body.style.backgroundImage = "default";
+    document.body.style.backgroundImage = "none";
     document.getElementById("area").style.fontWeight="normal";
     document.getElementById("area").style.color="black";
     document.getElementById("area").style.textDecoration="none";
